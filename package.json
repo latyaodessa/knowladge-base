@@ -9,6 +9,8 @@
   },
   "private": true,
   "dependencies": {
+    "@elastic/elasticsearch": "^8.1.0",
+    "axios": "^0.26.1",
     "compression": "^1.7.4",
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
