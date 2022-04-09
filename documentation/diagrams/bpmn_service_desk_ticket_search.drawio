@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T16:16:40.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="V9jnA1-9SwHcLNKSc-kW" version="17.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-09T16:19:27.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Cn35wEIj8XA1EWmOFX92" version="17.4.2" type="github">
   <diagram id="cY1X64MYrQobwlRaDaWS" name="Page-1">
     <mxGraphModel dx="1426" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
         <mxCell id="Djs3CElbYf5eCKZ_srw5-3" value="Ordering results with links and knowledge base context " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
           <mxGeometry x="547" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Djs3CElbYf5eCKZ_srw5-4" value="Service Desk Manager selects and article with matching Service Desk issue context " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+        <mxCell id="Djs3CElbYf5eCKZ_srw5-4" value="Service Desk Manager selects an article with matching Service Desk issue context " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
           <mxGeometry x="687" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Qk_IqspdnGqNnuB1DFdx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="Qk_IqspdnGqNnuB1DFdx-52" target="Qk_IqspdnGqNnuB1DFdx-68" edge="1">
