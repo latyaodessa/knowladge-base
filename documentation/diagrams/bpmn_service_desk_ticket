@@ -1,1 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T15:49:21.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.2" etag="nMuo_XJXfp0Idbuv7E5A" type="github"><diagram id="cY1X64MYrQobwlRaDaWS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-09T16:10:01.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="yWVj2ycP3EzHwZWTM7_D" version="17.4.2" type="github">
+  <diagram id="cY1X64MYrQobwlRaDaWS" name="Page-1">
+    <mxGraphModel dx="1426" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-1" value="" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="520" width="876" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-2" value="Knowledge Bases Parser Service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="-85" y="100" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-1" source="Qk_IqspdnGqNnuB1DFdx-60" target="Qk_IqspdnGqNnuB1DFdx-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-60" value="Executing Search" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="246" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.04;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-1" source="Qk_IqspdnGqNnuB1DFdx-61" target="Qk_IqspdnGqNnuB1DFdx-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-61" value="Sending back ranked results" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="456" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-1" source="Qk_IqspdnGqNnuB1DFdx-72" target="Qk_IqspdnGqNnuB1DFdx-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-72" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=message;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="96" y="65" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-73" value="Search Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="71" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-1" source="Qk_IqspdnGqNnuB1DFdx-79" target="Qk_IqspdnGqNnuB1DFdx-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-79" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=input;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="31" y="20" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-81" value="Search &lt;br&gt;query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="26" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-83" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;bpmnTransferType=output;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="620" y="20" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-84" value="Search &lt;br&gt;results" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="621" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-1" source="Qk_IqspdnGqNnuB1DFdx-87" target="Qk_IqspdnGqNnuB1DFdx-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-87" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;whiteSpace=wrap;size=15;html=1;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="286" y="170" width="104" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-88" value="Elastic Search&lt;br&gt;Database" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-1">
+          <mxGeometry x="293" y="185" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-26" value="" style="swimlane;html=1;startSize=40;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="875" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-27" value="&lt;span&gt;SAP Solution Manager&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Service Desk Ticket System&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-26">
+          <mxGeometry x="-60" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-30" value="New Service Desk&lt;br&gt;&amp;nbsp;Incident" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-26">
+          <mxGeometry x="50" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-26" source="Qk_IqspdnGqNnuB1DFdx-51" target="Qk_IqspdnGqNnuB1DFdx-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-51" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-26">
+          <mxGeometry x="80" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-52" value="Service Desk Manager Opens Ticket" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-26">
+          <mxGeometry x="180" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-64" value="Service Desk Manager selects and article with matching Service Desk issue context " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=user;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-26">
+          <mxGeometry x="562.5" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-22" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-26">
+          <mxGeometry x="770" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-26" source="Qk_IqspdnGqNnuB1DFdx-64" target="Qk_IqspdnGqNnuB1DFdx-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="115" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-53" value="" style="swimlane;html=1;startSize=30;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="875" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-54" value="&lt;span&gt;Embeddable User Interface&amp;nbsp;&lt;/span&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+          <mxGeometry x="-70" y="95" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-53" source="Qk_IqspdnGqNnuB1DFdx-58" target="Qk_IqspdnGqNnuB1DFdx-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-58" value="Initializing Embeddable User Interface " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+          <mxGeometry x="220" y="65" width="115" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-59" value="Fetching Service Desk Issue Title, Description and Context " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+          <mxGeometry x="370" y="62.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-62" value="Ordering results with links and knowledge base context " style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+          <mxGeometry x="562.5" y="65" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Qk_IqspdnGqNnuB1DFdx-53" source="Qk_IqspdnGqNnuB1DFdx-68" target="Qk_IqspdnGqNnuB1DFdx-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-68" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=message;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+          <mxGeometry x="120" y="70" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-69" value="Service Desk Issue&lt;br&gt;is opened by User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Qk_IqspdnGqNnuB1DFdx-53">
+          <mxGeometry x="85" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Qk_IqspdnGqNnuB1DFdx-52" target="Qk_IqspdnGqNnuB1DFdx-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="240" />
+              <mxPoint x="165" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Qk_IqspdnGqNnuB1DFdx-59" target="Qk_IqspdnGqNnuB1DFdx-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="500" />
+              <mxPoint x="145" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Qk_IqspdnGqNnuB1DFdx-61" target="Qk_IqspdnGqNnuB1DFdx-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="500" />
+              <mxPoint x="643" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qk_IqspdnGqNnuB1DFdx-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Qk_IqspdnGqNnuB1DFdx-62" target="Qk_IqspdnGqNnuB1DFdx-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="643" y="210" />
+              <mxPoint x="643" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
