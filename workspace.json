@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "service-desk": "apps/service-desk",
+    "service-desk-e2e": "apps/service-desk-e2e"
+  }
+}
