@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T09:43:08.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.2" etag="6fCxx-eSXgj7uE6I_ccD" type="github"><diagram id="giFiAJC1Y6u9M2ySD4Vm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-10T09:51:21.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Y5AYQEd1SgdhKOjs2Lez" version="17.4.2" type="github">
+  <diagram id="giFiAJC1Y6u9M2ySD4Vm" name="Page-1">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjcDfGp9VKQqzTE2yE28-1" target="WjcDfGp9VKQqzTE2yE28-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-1" value="Extracting raw text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjcDfGp9VKQqzTE2yE28-2" target="WjcDfGp9VKQqzTE2yE28-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-2" value="Sentence splitting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjcDfGp9VKQqzTE2yE28-3" target="WjcDfGp9VKQqzTE2yE28-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-3" value="Stemming (Normalizing)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-4" value="Stopword removal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="510" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WjcDfGp9VKQqzTE2yE28-11" target="WjcDfGp9VKQqzTE2yE28-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WjcDfGp9VKQqzTE2yE28-11" value="Tokenization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="210" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
